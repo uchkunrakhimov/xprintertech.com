@@ -1,0 +1,8 @@
+/*public_product_show_text_1*/
+.tem01-pro-showText{padding:25px 0 10px;}
+.tem01-pro-showText .title{font-size:20px;color:#333;margin:10px 0 20px;}
+.tem01-pro-showText .scrolllist .imglist_box{width:90%;overflow:hidden;float:left;}
+.tem01-pro-showText dl{display:table-row;}
+.tem01-pro-showText dt{font-weight:600;font-size:14px;color:#222;display:table-cell;padding:6px 0;padding-right:16px;white-space:nowrap;}
+.tem01-pro-showText dd{font-weight:300;font-size:14px;color:#777;display:table-cell;padding:6px 0;}
+.tem01-pro-showText [proinfo-inquire-btn].amount.active{display:none}

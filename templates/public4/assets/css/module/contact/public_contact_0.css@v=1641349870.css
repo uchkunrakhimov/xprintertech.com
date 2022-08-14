@@ -1,0 +1,60 @@
+.tem0-contact-sm{--x:15px;--y:15px;opacity:0;flex-grow:1}
+.tem0-contact-sm select{-webkit-appearance:none}
+.tem0-contact-sm .box{display:flex;font-weight:bold;position:relative}
+.tem0-contact-sm .box.full{align-items:flex-start!important}
+.tem0-contact-sm .box.submit .control-label{padding:0}
+.tem0-contact-sm .item{padding:8px;margin:0}
+.tem0-contact-sm .form-control{padding:var(--y) var(--x);height:auto;font-weight:normal}
+.tem0-contact-sm .form-group{margin-bottom:0}
+.tem0-contact-sm .control-label{padding-bottom:5px;flex-shrink:0;flex-grow:0}
+.tem0-contact-sm [required] ~ .control-label:before{content:'*';padding-right:5px;color:red;display:inline-block}
+.tem0-contact-sm .checkbox-group{width:100%;padding-top:0!important;padding-bottom:0!important}
+.tem0-contact-sm .checkbox-inline{padding:var(--y) 20px var(--y);margin-left:0}
+.tem0-contact-sm.title-top .box{flex-direction:column-reverse}
+.tem0-contact-sm.title-left .box{flex-direction:row-reverse;align-items:center}
+.tem0-contact-sm.title-left .flexBoxWrap{align-items:center}
+.tem0-contact-sm.title-left .control-label{text-align:right;padding:var(--y) 15px var(--y) 0}
+.tem0-contact-sm.title-box .control-label{font-weight:normal}
+.tem0-contact-sm.title-box .box{flex-flow:column}
+.tem0-contact-sm.title-box .form-control::-webkit-input-placeholder{color:transparent!important}
+.tem0-contact-sm.title-box .form-control:-ms-input-placeholder{color:transparent!important}
+.tem0-contact-sm.title-box .form-control::-ms-input-placeholder{color:transparent!important}
+.tem0-contact-sm.title-box .form-control::-moz-placeholder{color:transparent!important}
+.tem0-contact-sm.title-box .form-control::placeholder{color:transparent!important}
+.tem0-contact-sm.title-box .control-label{position:absolute;top:0;left:0;padding:var(--y) var(--x);transition:.1s ease-in-out}
+.tem0-contact-sm.title-box .checkbox-group{padding-top:calc(var(--y) + var(--y) * (2 / 3) - 1px)!important;padding-bottom:calc(var(--y) / 3 - 2px)!important}
+.tem0-contact-sm.title-box .form-control:not(:placeholder-shown){padding-top:calc(var(--y) + var(--y) * (2 / 3));padding-bottom:calc(var(--y) / 3)}
+.tem0-contact-sm.title-box .checkbox-group ~ .control-label,
+.tem0-contact-sm.title-box .form-control:not(:placeholder-shown) ~ .control-label{padding-top:calc(var(--y) / 3);padding-bottom:calc(var(--y) / 3);font-size:12px;opacity:.77}
+.tem0-contact-sm.title-box .checkbox-inline{padding:0 10px 0 20px}
+.tem0-contact-sm.border-bottom .form-control{border-top-width:0!important;border-right-width:0!important;border-left-width:0!important;box-shadow:none}
+.tem0-contact-sm .box.submit{justify-content:flex-end;flex-direction:row-reverse!important}
+.tem0-contact-sm.submit-center .box.submit{justify-content:center}
+.tem0-contact-sm.submit-center .box.submit .control-label{display:none}
+.tem0-contact-sm.submit-right .box.submit{justify-content:flex-start}
+.tem0-contact-sm [type="submit"]{background-color:transparent;border:1px solid var(--main-color);color:var(--main-color);padding:12px 45px;transition:.5s}
+.tem0-contact-sm [type="submit"]:hover{background-color:var(--main-color);color:#FFF}
+.tem0-contact-sm .help-block{position:relative;padding:0 var(--x)}
+.tem0-contact-sm .checkbox-inline .form-control-feedback{right:-30px;top:3px}
+.tem0-contact-sm .jy_verificationcode .box,
+.tem0-contact-sm .upload_attachments .box{align-items:initial !important}
+.tem0-contact-sm.title-box .jy_verificationcode .control-label{display:none}
+.tem0-contact-sm .jy_verificationcode .box .jy_yzm,
+.tem0-contact-sm .upload_attachments .upload_attach_con{flex-grow:1;width:100%}
+.tem0-contact-sm.title-box .upload_attachments .control-label{position:relative;padding:0 0 8px;font-size:14px!important;opacity:1!important}
+.tem0-contact-sm.title-box .upload_attachments .box{flex-direction:column-reverse}
+.tem0-contact-sm .upload_attachments .form-control{border-bottom:none;padding:0!important}
+.tem0-contact-sm .upload_attach_gray{font-size:12px;opacity:.5;padding-top:8px}
+.tem0-contact-sm .upload_box{width:60px;height:60px;line-height:60px;text-align:center;font-size:24px;color:#000}
+.tem0-contact-sm .add_file_a{border:1px dashed;border-color:inherit}
+@media screen and (min-width:0\0){
+    .tem0-contact-sm.title-box .control-label{display:none}
+    .tem0-contact-sm.title-box .form-control:-ms-input-placeholder{color:#999!important}
+    .tem0-contact-sm.title-box .form-control::-ms-input-placeholder{color:#999!important}
+}
+
+/* add Style */
+.tem0-contact-sm .title{font-size:24px;color:#000}
+.tem0-contact-sm .description{font-size:14px;color:#888}
+.tem05-ai_contact [layout-style="column"]{padding:0 3%}
+.leftlist .tem0-contact-sm .mt15 {margin: 0;}

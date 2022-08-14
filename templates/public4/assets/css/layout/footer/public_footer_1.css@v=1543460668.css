@@ -1,0 +1,31 @@
+/*-- tem01-footer --*/
+.tem01-footer{background-color:rgba(0,0,0,0.85);color:#999;}
+.tem01-footer-info{padding:20px 0;}
+.tem01-footer h4,
+.tem01-footer .h4,
+.tem01-footer h4 p,
+.tem01-footer .h4 p{color:#eee;font-size:20px;font-weight:normal;text-align:left;}
+.tem01-footer-info li{margin-bottom:5px;}
+.tem01-footer-info li,
+.tem01-footer-info p,
+.tem01-footer .links-info{display:block;font-weight:300;font-size:12px;line-height:25px;}
+.tem01-footer .links a{color:#999;}
+.tem01-footer .links a:hover{color:#FFF;text-decoration:underline;}
+.tem01-footer a.mail{color:#999;}
+.tem01-footer a.mail:hover{color:#006db7;}
+.tem01-footer .form-group,
+.tem01-footer .input-group{margin-bottom:5px;}
+.tem01-footer .input-group-addon{padding:3px;border:0;}
+.tem01-footer .form-control{background-color:rgba(255,255,255,0.1);border:0;color:#888;font-size:12px;}
+.tem01-footer .btn{border:0;color:#fff;width:100%;}
+/*tem01-footer -- form tip*/
+.tem01-footer .form-group.has-success .form-control-feedback{top:11px;height:auto;} 
+.tem01-footer .input-group.has-success .form-control-feedback{right:55px;} 
+.tem01-footer .form-group.has-error .help-block{top:11px;right:34px;margin-top:0;line-height:1;}
+.tem01-footer .form-group.has-error .form-control-feedback{top:11px;height:auto;}
+.tem01-footer .input-group.has-error .help-block{right:60px;}
+.tem01-footer .input-group.has-error .form-control-feedback{right:55px;}
+@media (max-width: 768px){
+    .tem01-footer {display: none;}
+}
+

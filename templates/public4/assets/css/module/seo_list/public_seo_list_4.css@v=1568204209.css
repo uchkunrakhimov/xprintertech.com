@@ -1,0 +1,77 @@
+.tem04-seo-list-ms{width:100%;overflow:hidden;}
+.tem04-seo-list-ms .topbox{width:100%;height:45px;background:rgba(110,110,110,0.08);border-bottom:1px solid rgba(121,121,121,0.1);margin-bottom:15px;position:relative;}
+.tem04-seo-list-ms .topbox .right-arrangement{height:45px;line-height:45px;overflow:hidden;text-align:center;position:absolute;top:0;right:10px;}
+.tem04-seo-list-ms .topbox .right-arrangement .view-icon{font-size:14px;color:#686A67;height:45px;line-height:45px;overflow:hidden;}
+.tem04-seo-list-ms .topbox .right-arrangement .view1-icon{display:none;}
+.tem04-seo-list-ms .topbox .right-arrangement .view2-icon{display:block;}
+.tem04-seo-list-ms .topbox .right-arrangement .view-icon i{vertical-align:middle;font-style:normal;}
+.tem04-seo-list-ms .topbox .right-arrangement .view2-icon i{padding-left:10px;}
+.tem04-seo-list-ms .topbox .right-arrangement .view-icon .icon{vertical-align:middle;}
+.tem04-seo-list-ms .topbox .right-arrangement .view-icon .icon-grid2{font-size:40px;}
+.tem04-seo-list-ms .topbox .right-arrangement .view-icon .icon-list1{font-size:25px;}
+.tem04-seo-list-ms .view1{display:none;}
+.tem04-seo-list-ms .view2{display:block;}
+.tem04-seo-list-ms .on .view2{display:none;}
+.tem04-seo-list-ms .on .view1{display:block;}
+.tem04-seo-list-ms .viewconn figure{width:100%;background:#fff;overflow:hidden;}
+.tem04-seo-list-ms .viewconn .item{margin-bottom:15px;}
+.tem04-seo-list-ms .view2 .item{border-bottom:1px solid #eee;padding:15px;margin:0;}
+.tem04-seo-list-ms .on .view1 .item{border-bottom:none;margin-bottom:0;}
+.tem04-seo-list-ms .viewconn .image{width:100%;overflow:hidden;position:relative;padding-top:100%;height:auto;}
+.tem04-seo-list-ms .view2 .image{width:22%;padding-top:22%;float:left;}
+.tem04-seo-list-ms .on .view1 .image{width:100%;padding-top:100%;float:none;}
+.tem04-seo-list-ms .viewconn .image img{position:absolute;left:0;top:0;width:100%;min-height:100%;transition:all 0.3s ease-in 0s;}
+.tem04-seo-list-ms .viewconn figcaption{width:100%;padding:5px 0;}
+.tem04-seo-list-ms .view2 figcaption{width:76%;padding:5px 10px;float:right;}
+.tem04-seo-list-ms .on .view1 figcaption{width:100%;padding:5px 0;float:none;}
+.tem04-seo-list-ms .viewconn figcaption a{font-weight:normal;text-align:center;text-decoration:none;display:inline-block;width:100%;}
+.tem04-seo-list-ms .view2 figcaption a{text-align:left;}
+.tem04-seo-list-ms .on .view1 figcaption a{text-align:center;}
+.tem04-seo-list-ms .viewconn figcaption > a{color:#333;}
+.tem04-seo-list-ms .viewconn figcaption h3,
+.tem04-seo-list-ms .viewconn figcaption .h3{font-size:14px;font-weight:normal;width:100%;line-height:20px;max-height:40px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:ellipsis;overflow:hidden;text-align:center;margin:0;padding:0;}
+.tem04-seo-list-ms .view2 figcaption h3,
+.tem04-seo-list-ms .view2 figcaption .h3{text-align:left;height:auto;max-height:40px;-webkit-line-clamp:2;}
+.tem04-seo-list-ms .on .view1 figcaption h3,
+.tem04-seo-list-ms .on .view1 figcaption .h3{text-align:center;height:20px;max-height:none;white-space:nowrap;display:block;-webkit-line-clamp:initial;-webkit-box-orient:initial;}
+.tem04-seo-list-ms .viewconn figcaption h3:after,
+.tem04-seo-list-ms .viewconn figcaption .h3:after{content:"";background:none;}
+.tem04-seo-list-ms .viewconn figcaption .desc{opacity:0.6;font-size:12px;font-weight:normal;margin:15px 0;line-height:18px;height:36px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:ellipsis;overflow:hidden;}
+.tem04-seo-list-ms .view2 figcaption .desc{text-align:left;height:auto;max-height:72px;-webkit-line-clamp:4;}
+.tem04-seo-list-ms .on .view1 figcaption .desc{text-align:center;height:44px;max-height:none;margin:5px 0;}
+.tem04-seo-list-ms .viewconn figcaption .to_inquire{margin:0;}
+.tem04-seo-list-ms .on .view1 figcaption .to_inquire{text-align:center;}
+.tem04-seo-list-ms .viewconn figcaption .to_inquire .btn{width:100%;font-size:14px;border:1px solid rgba(121,121,121,0.2);border-color:inherit;padding:5px 10px;}
+.tem04-seo-list-ms .view2 figcaption .to_inquire .btn{width:auto;}
+.tem04-seo-list-ms .on .view1 figcaption .to_inquire .btn{width:100%;}
+.tem04-seo-list-ms .view2 figcaption .to_inquire .btn-link{border-color:transparent;}
+.tem04-seo-list-ms .view2 figcaption .to_inquire .btn-link i{font-style:normal;text-decoration:underline;}
+.tem04-seo-list-ms .on .view1 figcaption .to_inquire .btn-link{display:none;}
+.tem04-seo-list-ms .viewbox:not(.on) .view2 .item{width:100%!important;max-width:100%!important;}
+@media (max-width:767px){
+.tem04-seo-list-ms .viewconn .row{margin:0;}
+.tem04-seo-list-ms .view2 .item,
+.tem04-seo-list-ms .view2 .item:nth-child(odd),
+.tem04-seo-list-ms .view2 .item:nth-child(even){padding:10px 0;}
+.tem04-seo-list-ms .on .view1 .item{width:50%;}
+.tem04-seo-list-ms .on .view1 .item:nth-child(odd){padding:0 7.5px 15px 0;}
+.tem04-seo-list-ms .on .view1 .item:nth-child(even){padding:0 0 15px 7.5px;}
+.tem04-seo-list-ms .view2 figcaption{padding:0 10px;}
+.tem04-seo-list-ms .viewconn figcaption h3,
+.tem04-seo-list-ms .viewconn figcaption .h3{font-size:12px;}
+.tem04-seo-list-ms .view2 figcaption h3,
+.tem04-seo-list-ms .view2 figcaption .h3{max-height:20px;-webkit-line-clamp:1;}
+.tem04-seo-list-ms .on .view1 figcaption h3,
+.tem04-seo-list-ms .on .view1 figcaption .h3{height:40px;white-space:pre-wrap;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:ellipsis;overflow:hidden;}
+.tem04-seo-list-ms .view2 figcaption .desc{max-height:54px;margin:8px 0;-webkit-line-clamp:3;}
+.tem04-seo-list-ms .on .view1 figcaption .desc{display:none;}
+.tem04-seo-list-ms .view2 figcaption .to_inquire .btn-link{display:none;}
+}
+@media (max-width:360px){
+.tem04-seo-list-ms .view2 figcaption a{padding:0;}
+.tem04-seo-list-ms .on .view1 figcaption a{padding:0;}
+.tem04-seo-list-ms .view2 figcaption .desc{max-height:36px;margin:5px 0;-webkit-line-clamp:2;}
+}
+@media (max-width:360px){
+.tem04-seo-list-ms .view2 figcaption .desc{max-height:36px;margin:3px 0;}
+}

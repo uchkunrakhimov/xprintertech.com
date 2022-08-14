@@ -1,0 +1,48 @@
+/*tem05-detail-contact*/
+.tem05-detail-contact{padding:20px 0 5px;}
+.tem05-detail-contact .title{text-align:center;margin-bottom:20px;font-size:20px;}
+.tem05-detail-contact form{width:80%;display:block;margin:0 auto;}
+.tem05-detail-contact .description{width:80%;display:block;margin:0 auto;}
+.tem05-detail-contact .comment-title{color:#444;font-size:20px;}
+.tem05-detail-contact .form-group{border-color:#ddd;color:#666;}
+.tem05-detail-contact .form-group .form-control{color:#333;font-weight:500;box-shadow:none;border:1px solid transparent;border-radius:0;height:40px;padding:10px 16px;background:#f5f5f5;color:#333;}
+.tem05-detail-contact .form-group .form-control:focus{border-color:#66afe9;}
+.tem05-detail-contact .form-group textarea{height:auto!important;}
+.tem05-detail-contact .form-group select{color:inherit;}
+.tem05-detail-contact .form-group select option{color:inherit;padding:5px 10px;font-size:13px;}
+.tem05-detail-contact .form-group .form-control:focus{border-color:#66afe9;}
+.tem05-detail-contact .form-group .btn{border-radius:0;border:none;color:#fff;padding:6px 20px;margin-top:10px;}
+.tem05-detail-contact .has-error .form-control-feedback{left:0;top:60px}
+.tem05-detail-contact .yzmbox{width:100%}
+.tem05-detail-contact .yzmbox .form-control{width:100%}
+.tem05-detail-contact .yzmbox a{width:50px;height:25px;margin:5px;position:absolute;top:3px;right:3px}
+.tem05-detail-contact .yzmbox a img{width:100%;height:100%}
+.tem05-detail-contact .checkbox-name{float:left;font-size:14px;color:#999;padding:10px 0;border-left:1px solid #cecece;border-top:1px solid #cecece}
+.tem05-detail-contact .checkbox-option{padding:10px 0}
+.tem05-detail-contact .checkbox-option label{color:#999;font-weight:normal;padding-left:15px}
+.tem05-detail-contact .form-group .checkbox-name{float:left;padding:10px 0;}
+.tem05-detail-contact .form-group .checkbox-option{padding:10px 0;margin-bottom:15px;}
+.tem05-detail-contact .form-group .checkbox-option label{font-weight:normal;padding-left:15px;color:#666;}
+.tem05-detail-contact .form-group .checkbox-name{border-top:1px solid #cecece;border-left:1px solid #cecece}
+.tem05-detail-contact .form-group .checkbox-option{border:1px solid #cecece;color:#4a4a4a}
+.tem05-detail-contact .form-group .checkbox-name{background:inherit;border-color:inherit;color:inherit;padding:10px 0 10px 20px}
+.tem05-detail-contact .form-group .checkbox-option{background:inherit;border-color:inherit;color:inherit}
+.tem05-detail-contact .form-group .checkbox-option label{color:inherit;opacity:.8}
+.tem05-detail-contact .help-block{margin:0;text-align:right;right:30px;top:13px;-z-index:2}
+.tem05-detail-contact .has-error .form-control-feedback,
+.tem05-detail-contact .has-success .form-control-feedback{top:14px;right:0;left:auto}
+.tem05-detail-contact .yzmbox .help-block{right:80px}
+.tem05-detail-contact .yzmbox.has-error .form-control-feedback,
+.tem05-detail-contact .yzmbox.has-success .form-control-feedback{right:50px;display:none !important;}
+@media (max-width:480px){
+    .tem05-detail-contact .comment-title{font-size:18px;}
+    .tem05-detail-contact form{width:100%;padding:0 15px;}
+    .tem05-detail-contact .form-group .btn{margin-top:0;}
+}
+
+
+.tem05-detail-contact .upload_attach_con{ border: none;  }
+.tem05-detail-contact .upload_attach_con .add_file_a{ width: 60px;height: 60px; display: flex;justify-content: center;align-items: center;border: 1px solid #ccc;}
+.tem05-detail-contact .upload_attach_con .add_file_a .webuploader-pick{ color: #ccc; background: transparent;}
+.tem05-detail-contact .upload_attach_con .add_file_a > div:last-child{ width:100%!important;height: 100%!important; }
+.tem05-detail-contact .upload_attach_gray{ overflow: hidden; }

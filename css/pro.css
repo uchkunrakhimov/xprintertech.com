@@ -1,0 +1,123 @@
+[data-theme="dark"] ul._ul.bg-color-F,
+[data-theme="dark"] .bg_dong_f.container,
+[data-theme="dark"] .icon,
+[data-theme="dark"] .tem_con,
+[data-theme="dark"] .box,
+[data-theme="dark"] ul.language.bg-color-F.news_lang.lanlist,
+[data-theme="dark"] .noScrollMove.full-screen-spacing,
+[data-theme="dark"] .item,
+[data-theme="dark"] [template-layout="13"],
+[data-theme="dark"] [template-layout="2"],
+[data-theme="dark"] [template-layout="4"],
+[data-theme="dark"] [template-layout="5"],
+[data-theme="dark"] .tem15-side.bg-color-gray-level-F,
+[data-theme="dark"] .mainlist .effect-grid38 figure,
+[data-theme="dark"] .list-group-item,
+[data-theme="dark"] .tem15-side .h3,
+[data-theme="dark"] .page_list_01 a,
+[data-theme="dark"] [layout-id="5"],
+[data-theme="dark"] .tem03-faq_list .faq-li .text,
+[data-theme="dark"] .tem36-contact .wrap,
+[data-theme="dark"] .btn-default,
+[data-theme="dark"] .effect-grid41 .product-li .text,
+[data-theme="dark"] .bg-color-gray-level-F,
+[data-theme="dark"] .mainlist .effect-grid38 figcaption,
+[data-theme="dark"] .darker {
+  border-color: #202324 !important;
+  background: #202324 !important;
+}
+
+[data-theme="dark"] .tem09-certified .con .left {
+  background: transparent !important;
+}
+
+.chakra-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  padding-right: 4px;
+}
+
+[data-theme="light"] .chakra-icon-light {
+  display: none;
+}
+
+[data-theme="dark"] .chakra-icon-dark {
+  display: none;
+}
+
+[data-theme="dark"] .chakra-icon-light {
+  display: block;
+  color: #fff;
+}
+
+[data-theme="dark"] .swiper-slide .btn .span_txt,
+[data-theme="dark"] .swiper-slide span.icon-keyboard_arrow_right.right_span {
+  color: #202324 !important;
+}
+
+[data-theme="dark"] .swiper-slide .btn {
+  border-color: #202324 !important;
+}
+
+
+
+[data-theme="dark"] .navigation .ul_xu a,
+[data-theme="dark"] .add-jia section p span,
+[data-theme="dark"] ul.language.bg-color-F.news_lang.lanlist li a,
+[data-theme="dark"] h1 span,
+[data-theme="dark"] p span,
+[data-theme="dark"] strong span,
+[data-theme="dark"] .content-section,
+[data-theme="dark"] .title,
+[data-theme="dark"] .time,
+[data-theme="dark"] .icon,
+[data-theme="dark"] .news-time,
+[data-theme="dark"] .description,
+[data-theme="dark"] .tem27-bread .tem01-location,
+[data-theme="dark"] div a,
+[data-theme="dark"] .tem36-contact .form-group label {
+  color: #fff !important;
+}
+
+[data-theme="dark"] [template-layout="6"] {
+  opacity: 0.9;
+}
+
+[data-theme="dark"] .tem17-side .bg-color-h .list-group-item a:hover {
+  background-color: #202324 !important;
+  color: #fff !important;
+}
+
+.ul_xu {
+  cursor: pointer;
+}
+
+[data-theme="dark"] .ul_xu a svg {
+  fill: #fff;
+}
+
+.ul_xu:hover a svg {
+  fill: #fff;
+}
+
+[data-theme="dark"] span.input-group-btn {
+  border-color: #fff !important;
+}
+
+[data-theme="dark"] .page_list_01 a,
+[data-theme="dark"] .tem03-download-ms .item {
+  border-color: #fff !important;
+}
+
+[data-theme="dark"] .page_list_01 .pagecontrol .form-control {
+  border-color: #fff !important;
+}
+
+[data-theme="dark"] span.input-group-btn .btn.btn-default {
+  border-color: #fff !important;
+  color: #fff;
+}
+
+[data-theme="dark"] [name="searchname"] {
+  color: #fff;
+}

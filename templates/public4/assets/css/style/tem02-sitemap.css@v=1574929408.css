@@ -1,0 +1,39 @@
+.tem02-sitemap .flexBoxStem{flex-direction: row-reverse;}
+.tem02-sitemap h1{margin:0;}
+.tem02-sitemap .flexBoxStem{align-items: flex-start;}
+.tem02-sitemap .items h1{font-size: 16px;background-color:#f5f5f5;padding: 15px;font-weight: 700;}
+.tem02-sitemap .items .con{margin-bottom: 5%;padding: 0 2%;}
+.tem02-sitemap .item{padding-top:20px;padding-bottom: 20px;;position: relative;}
+.tem02-sitemap .item .block{position: absolute;left:0;top:calc(50% - 5px);width: 8px;height: 8px;}
+.tem02-sitemap .item a{padding-left: 10px;color: #333;font-size: 14px;transition: .4s;display: block;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.tem02-sitemap-bread{margin:15px 0;text-align:left}
+.tem02-sitemap-bread .bread-box{border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;padding:10px 0}
+.tem02-sitemap-bread .bread-box .s-location,
+.tem02-sitemap-bread .bread-box .s-location a,
+.tem02-sitemap-bread .bread-box .s-location a:focus,
+.tem02-sitemap-bread .bread-box .s-location a:hover,
+.tem02-sitemap-bread .bread-box .s-location span{color:#888;font-size:12px}
+.tem02-sitemap-bread .bread-box .s-location span{padding:0 10px}
+.tem02-sitemap .rightlist{overflow: hidden;}
+@media(min-width:769px){
+    .tem02-sitemap .item:hover .title{opacity: .8;transform: translateX(10px);}
+    .tem02-sitemap .items .item{padding-right: 80px!important;}
+    .tem02-sitemap .rightlist{padding-top: 20px;flex:1 1 0;width: 100%;}
+    .tem02-sitemap .flexBoxStem > .leftlist{position: sticky;top:90px;width: 22%;flex-shrink: 0;}
+}
+@media (max-width:768px){
+    .tem02-sitemap .items h1{padding:10px;font-size: 14px;font-weight: 500;}
+    .tem02-sitemap .item{width: 100%;}
+    .tem02-sitemap .item a{white-space: normal;color:#666;padding-left: 12px;}
+    .tem02-sitemap .item{padding-top:10px;padding-bottom: 10px;}
+    .tem02-sitemap .items .con{padding:2% 2% 3%;margin:0;}
+    .tem02-sitemap .item .block{width: 6px;height: 6px;top:50%;transform: translateY(-50%);}
+}
+
+.tem02-sitemap .ai-view-all{
+    color: blue;
+    float: right;
+    font-weight: normal;
+    font-size: 13px;
+    margin-right: 40px;
+}

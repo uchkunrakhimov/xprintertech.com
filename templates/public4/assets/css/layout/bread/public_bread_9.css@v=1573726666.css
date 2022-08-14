@@ -1,0 +1,19 @@
+/*tem09-bread*/
+.tem09-bread{margin:15px 0;background-position:50% 50%;background-repeat:no-repeat;background-size:100% 100%;}
+.tem09-bread-ms{text-align:left;}
+.tem09-bread-ms .bread-box{border-top:1px solid;border-bottom:1px solid;border-color:#f0f0f0;padding:20px 0;}
+.tem09-bread-ms .bread-box .tem09-location{color:#888;}
+.tem09-bread-ms .bread-box .tem09-location span,
+.tem09-bread-ms .bread-box .tem09-location a,
+.tem09-bread-ms .bread-box .tem09-location a:hover,
+.tem09-bread-ms .bread-box .tem09-location a:focus{color:inherit;}
+.tem09-bread-ms .bread-box .tem09-location span{padding:0 20px;}
+.tem09-bread-ms .bread-box .tem09-location {font-size:14px;line-height: 25px;}
+.tem09-bread.content-right .tem09-bread-ms{text-align: right;}
+.tem09-bread.content-middle .tem09-bread-ms{text-align: center;}
+@media (max-width:768px){
+.tem09-bread-ms .bread-box{padding:10px 0;}
+.tem09-bread-ms{padding: 0 2%;}
+.tem09-bread-ms .bread-box .tem09-location a,
+.tem09-bread-ms .bread-box .tem09-location span{padding:0;}
+}

@@ -1,0 +1,5 @@
+/******tem17-pro-detail-sm******/
+.tem17-pro-detail-sm.tem11-pro-detail-sm .gallery-top{height:auto;}
+.tem17-pro-detail-sm .detail-share{margin-top:10px;}
+.tem17-pro-detail-sm .detail-share a{margin:0 2px;display:inline-block;width:30px;height:30px;line-height:28px;text-align:center;border-radius:50%;border-style:solid;border-width:1px;font-size:16px;}
+.tem17-pro-detail-sm [proinfo-inquire-btn].amount.active{display:none}

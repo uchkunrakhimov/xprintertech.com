@@ -1,0 +1,8 @@
+.tem16-pro-detail .tem30-side .list-group{border-color:#eee;}
+.tem16-pro-detail .flexBoxWrap .headline{border:none!important;}
+.tem16-pro-detail .tem30-side{margin-bottom: 30px;}
+.tem16-pro-detail .pro-detail-tab > .tabContent{display: none;}
+.tem16-pro-detail .tab-content>.tab-pane{display: block!important;}
+.tem16-pro-detail .tem13-side-related-products .headline,
+.tem16-pro-detail .tem04-side-related-news .headline{border: none;background: rgba(0,0,0,.03);padding: 15px 10px;}
+.tem16-pro-detail .tem01-detail-comment{margin: 20px 0;}

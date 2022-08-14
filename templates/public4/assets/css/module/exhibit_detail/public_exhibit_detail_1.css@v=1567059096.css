@@ -1,0 +1,33 @@
+/*tem01-exhibit-detail*/
+.tem01-exhibit-detail-ms{margin:30px 0;overflow:hidden;width:100%;}
+.tem01-exhibit-detail-ms .carousel{z-index:1;}
+.tem01-exhibit-detail-ms p{font-size:14px;}
+.tem01-exhibit-detail-ms .carousel-inner img{max-width:100%;margin:0 auto;display:block;}
+.tem01-exhibit-detail-ms .carousel-control .glyphicon-chevron-left,
+.tem01-exhibit-detail-ms .carousel-control .glyphicon-chevron-right,
+.tem01-exhibit-detail-ms .carousel-control .icon-prev, 
+.tem01-exhibit-detail-ms .carousel-control .icon-next{width:50px;height:50px;margin-top:0;font-size:50px;}
+.tem01-exhibit-detail-ms .carousel-control{width:5%;background-image:none;}
+.tem01-exhibit-detail .text{margin:20px 0 15px;}
+.tem01-exhibit-detail .text h3,
+.tem01-exhibit-detail .text .h3{font-size:20px;text-align:center;color:#333;padding:10px;line-height:25px;margin-bottom:30px;}
+.tem01-exhibit-detail .text .wz{font-size:14px;color:#666;line-height:25px;overflow:hidden;word-break:break-all;}
+.tem01-exhibit-detail-ms .text h3,
+.tem01-exhibit-detail-ms .text .h3{font-size:18px;text-align:center;color:#333;}
+.tem01-exhibit-detail-ms .text .wz{font-size:14px;text-indent:2em;color:#666;line-height:25px;overflow:hidden;word-break:break-all;}
+/*控制插件小图片的样式*/
+.tem01-exhibit-detail-ms .carousel-inner{margin-bottom:30px;}
+.tem01-exhibit-detail-ms .carousel-indicators{width:100%;position:inherit;left:0;margin-left:0;top:0;text-align:left;max-height:110px;overflow-x:hidden;overflow-y:auto;}
+.tem01-exhibit-detail-ms .carousel-indicators li{width:5.5%;height:50px;border:1px solid #ccc;background:#fff;margin:2px 0;border-radius:0;opacity:0.4;vertical-align:middle;display:inline-block;text-align:center;transition:box-shadow 0.5s ease 0s, transform 0.5s ease 0s;}
+.tem01-exhibit-detail-ms .carousel-indicators li.active{opacity:1;height:50px;border:1px solid #d62121;box-shadow:0 0 5px rgba(0, 0, 0, 0.05);transform:translate3d(0px, -1px, 0px);}
+.tem01-exhibit-detail-ms .carousel-indicators li img{width:100%;height:100%;display:block;}
+.tem01-exhibit-detail-ms .carousel-caption{bottom:10px;padding-bottom:10px;}
+@media (max-width:768px){
+    .tem01-exhibit-detail-ms .carousel-indicators li{width:15%;}
+    .tem01-exhibit-detail-ms .carousel-control .glyphicon-chevron-left,
+    .tem01-exhibit-detail-ms .carousel-control .glyphicon-chevron-right,
+    .tem01-exhibit-detail-ms .carousel-control .icon-prev, 
+    .tem01-exhibit-detail-ms .carousel-control .icon-next{display:none;}
+    .tem01-exhibit-detail .text h3,
+    .tem01-exhibit-detail .text .h3{padding:0 15px;}
+}

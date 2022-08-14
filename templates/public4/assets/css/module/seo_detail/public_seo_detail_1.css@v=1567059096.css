@@ -1,0 +1,10 @@
+/* tem01-seo-detail */
+.tem01-seo-detail-ms{width:100%;overflow:hidden;padding:15px 0;}
+.tem01-seo-detail-ms img{max-width:100%;display:block;margin:0 auto;}
+.tem01-seo-detail-ms .title{font-size:20px;color:#333;line-height:25px;max-width:80%;margin:0 auto 15px;text-align:center;}
+.tem01-seo-detail-ms .summary{font-size:14px;line-height:22px;color:#888;margin-bottom:15px;}
+.tem01-seo-detail-ms .data{font-size:12px;height:20px;line-height:20px;text-align:center;color:#aaa;font-family:"HELVETICANEUELTPRO-THEX", Arial;margin-bottom:30px;text-align:center;}
+@media (max-width:768px){
+    .tem01-seo-detail-ms .title{font-size:16px;max-width:100%;width:100%;}
+    .tem01-seo-detail-ms .data{margin-bottom:15px;}
+}

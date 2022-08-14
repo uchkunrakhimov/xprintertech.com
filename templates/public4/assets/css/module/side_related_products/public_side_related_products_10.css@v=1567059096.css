@@ -1,0 +1,13 @@
+.tem10-side-related-products .main{border-color:#ddd;margin-bottom:15px;color:#222;}
+.tem10-side-related-products .main .headline{border:none;background-color:rgba(0,0,0,.03);font-size:16px;color:inherit;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:15px;border:1px solid;border-color: inherit;margin: 0;}
+.tem10-side-related-products .item{border-bottom: 1px dashed;border-color: inherit;margin: 10px; background-color: #fff;}
+.tem10-side-related-products .item:last-child{border-color: transparent;}
+.tem10-side-related-products a{display: block;transition: .4s;padding: 0 5%;color:inherit;border-color: inherit;}
+.tem10-side-related-products .item .image{width: 100%;}
+.tem10-side-related-products .item .image img{width: 100%;}
+.tem10-side-related-products .item .title{line-height: 170%;color:#333;padding: 3% 0;font-size: 14px;}
+.tem03-sennews-content .tem10-side-related-products .main .headline{background-color: #000;color:#fff;}
+@media(max-width:768px){
+    .tem10-side-related-products a{padding: 0;}
+    .tem10-side-related-products .main .headline{padding: 3%;}
+}

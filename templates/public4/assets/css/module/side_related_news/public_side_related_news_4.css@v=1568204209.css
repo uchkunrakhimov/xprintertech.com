@@ -1,0 +1,35 @@
+.tem04-side-related-news{background-color:#fff;}
+.tem04-side-related-news .headline{font-size:18px;color:#333;margin:0;padding:20px 15px 15px;border-bottom: 1px solid #ddd;margin-bottom: 20px;}
+.tem04-side-related-news .box.flexBoxWrap{height: 100%;align-items: center;transition: .4s;}
+.tem04-side-related-news .images{background-size: cover;background-position: center;height: 100%;flex-shrink: 0;flex-grow: 0;width: 40%;}
+.tem04-side-related-news .images img{width: 100%;opacity: 0;}
+.tem04-side-related-news .text{color:#333;flex-grow: 1;flex-basis: 0;padding-left: 20px;overflow: hidden;}
+.tem04-side-related-news .title{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: block;color:#333;}
+.tem04-side-related-news .description{margin: 10px 0 0;line-height:24px;color:#888;}
+.tem04-side-related-news .description .txt{ overflow: hidden; position: relative; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;text-overflow: ellipsis;max-height: 96px;overflow: hidden;}
+.tem04-side-related-news .more{cursor: pointer;transition: .2s;font-size: 13px;display: inline-block;margin-top: 5px;}
+@media (max-width:991px){
+.tem04-side-related-news .headline{margin:10px 0;}
+}
+@media (min-width:769px){
+.tem04-side-related-news .item {padding:10px!important;}
+.tem04-side-related-news .box:hover{transform: translateY(-10px)}
+.tem04-side-related-news .title:hover{color:var(--main-color);}
+.tem04-side-related-news .more:hover{opacity: .8;}
+.tem04-side-related-news .description .txt{max-height: 90px;}
+}
+@media (max-width:768px){
+.tem04-side-related-news .headline{padding: 10px;font-size: 16px;border: none;margin: 0;background:rgba(0,0,0,.03);}
+.tem04-side-related-news .box.flexBoxWrap{padding: 10px 0;}
+.tem04-side-related-news .box.flexBoxWrap{padding: 5px 0;}
+}
+@media (max-width:480px){
+.tem04-side-related-news .item{width: 100%;max-width: 100%;}
+.tem04-side-related-news .title,
+.tem04-side-related-news .images{height: auto;}
+.tem04-side-related-news .btn{font-size: 12px;padding:5px 10px;}
+.tem04-side-related-news .item{margin:0;}
+.tem04-side-related-news .images{width:100%;}
+.tem04-side-related-news .text{padding:3% 1%;}
+.tem04-side-related-news .description{margin:5px 0 0;}
+}

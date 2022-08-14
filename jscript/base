@@ -1,0 +1,38 @@
+/* 全局变量 */
+window.siteInfo = {
+	member: {
+		status: 'CLOSE',
+	},
+	seo: {
+		verifyCode: 'OPEN',
+	},
+	language_code: '',
+	checkIP: '0',
+	shopping: {
+		shoppingCart: 0,
+	},
+    water_info:{
+        waterController:'CLOSE',// 水印开关，OPEN开，CLOSE关闭
+    }
+};
+
+window.fanyi = {
+	'ok': 'Ok',           // 弹窗：好的
+	'hide': 'hide',       // 弹窗：隐藏
+	'prompt': 'Prompt',  // 弹窗：提示
+	's_c_d_y': 'yes',// 弹窗：确定
+	's_c_d_n': 'no',// 弹窗：取消
+	'not_empty': 'Do not allow empty',         // 表单验证：不能为空
+	'format_email': 'Please enter a valid e-mail format',    // 表单验证：邮箱格式不正确
+	'format_password': 'Password at least 6',    // 表单验证：密码格式不正确
+	'format_pwdAgain': 'Password inconsistency',    // 表单验证：新旧密码不一致
+	'special_character': 'Existence of special characters',    // 表单验证：非法字符
+	'format_integer': 'Please enter a valid number format',// 表单验证：数字格式不正确
+	'send_failed': 'Send failed',        // 询盘：发送失败
+	'aisubtitle': 'Submit successfully',          // 询盘：提交成功
+  'being_processed': 'Being Processed',// 询盘：处理中
+	'You_need_to_upload_files': 'You need to upload files', // 附件上传：不能为空
+  'inquire_attach_uploading': 'When uploading files, please wait a few minutes patiently. Do not close the web page or disconnect the network!',  // 附件上传：文件上传中
+	'up_file_tips': 'Support formats：PDF、Word、Excel、Txt、JPG、PNG、BMP、GIF、RAR、ZIP，It is recommended to upload up to 5, and the single size must not exceed 20M.',// 附件上传：附件大小与格式的要求提示
+	'please_open_with_another_browser': 'Please open with another browser', // 低级浏览器提示
+};

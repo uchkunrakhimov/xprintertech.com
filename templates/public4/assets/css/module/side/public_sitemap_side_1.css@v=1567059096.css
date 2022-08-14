@@ -1,0 +1,11 @@
+.tem01-sitemap-side{padding-top: 20px;padding-right: 10%;}
+.tem01-sitemap-side .wrap{background-color:#fff;}
+.tem01-sitemap-side .title{font-size: 16px;padding:16px 15px;background-color:#000;color:#fff;text-align: left;}
+.tem01-sitemap-side ul{background-color:rgba(0,0,0,.01)}
+.tem01-sitemap-side li a{display: block;padding:15px;color:#333;border-bottom: 1px solid #eee;cursor: pointer;}
+@media(min-width:769px){
+    .tem01-sitemap-side li a:hover{color:var(--main-color);transform:translateX(5px);}
+}
+@media (max-width:768px){
+    .tem01-sitemap-side{display: none;}
+}

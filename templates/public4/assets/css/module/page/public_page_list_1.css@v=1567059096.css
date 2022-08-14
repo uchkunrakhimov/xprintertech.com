@@ -1,0 +1,15 @@
+/*****public_page_list_01*****/
+.page_list_01{padding:1em 0;width:100%;}
+.page_list_01 a{margin:0 5px 5px 0;font-size:14px;padding:6px 15px;background:#fff;border-radius:4px;border:1px solid #ccc;color:#666;vertical-align:middle;display:inline-block;text-align:center;font-family:"HELVETICANEUELTPRO-THEX","微软雅黑","Arial";}
+.page_list_01 .pageNav{display:inline-block;vertical-align:middle;}
+.page_list_01 a.current{color:#bbb;}
+.page_list_01 .total{margin:0 8px 8px 0;padding:5px 15px;line-height:25px;color:#999;display:inline-block;font-family:"HELVETICANEUELTPRO-THEX","微软雅黑","Arial";}
+.page_list_01 .pagecontrol{display:inline-block;vertical-align:middle;margin-bottom:5px;}
+.page_list_01 .form-inline .input-group > .form-control{width:50px;}
+@media (max-width:768px){
+    .page_list_01{padding:20px 0;}
+    .page_list_01 .pagecontrol{display:none;}
+}
+@media (max-width:320px){
+    .page_list_01 .form-inline .input-group > .form-control{width:100%;}
+}

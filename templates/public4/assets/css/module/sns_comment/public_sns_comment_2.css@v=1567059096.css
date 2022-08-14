@@ -1,0 +1,59 @@
+.tem02-sns-comment{padding:22px 0}
+.tem02-sns-comment .item.flexBoxWrap{flex-wrap:nowrap;-webkit-flex-wrap:nowrap;padding:24px 0;border-top:2px solid #E4E7ED}
+.tem02-sns-comment .username{width:10vw;color:#909399;font-size:14px;word-break:break-all;margin-right:10px}
+.tem02-sns-comment .comdetail{flex:1;-webkit-flex:1}
+.tem02-sns-comment .comment{font-size:14px;color:#000000;margin-top:14px}
+.tem02-sns-comment .date{font-size:14px;color:#909399 ;margin-top:8px}
+.tem02-sns-comment .comitem{padding-top:10px;border-top:2px solid #e4e7ed}
+.tem02-sns-comment .name{color:#909399;font-size:18px}
+.tem02-sns-comment .datebox,
+.tem02-sns-comment .comitems .comment{margin-top:8px}
+.tem02-sns-comment .datebox .date{margin-top:0}
+.tem02-sns-comment .datebox .reply{font-size:16px;color:var(--main-color);margin-left:16px;cursor:pointer}
+.tem02-sns-comment .comI{padding:17px 22px;width:100%;border:1px solid #E4E7ED;background-color:#f2f2f2;margin-top:12px;position:relative}
+.tem02-sns-comment .comI:after{content:"";width:0px;height:0px;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:12px solid #f7f7f7;position:absolute;left:119px;top:-14px}
+.tem02-sns-comment .comI_text{padding:10px 10px 21px;background-color:#fff;border:1px solid #e4e7ed;position:relative}
+.tem02-sns-comment .comI_text textarea{border:none;width:100%;height:48px;outline:none}
+.tem02-sns-comment .comI_text textarea::-webkit-scrollbar{width:8px;background-color:#F5F5F5}
+.tem02-sns-comment .comI_text textarea::-webkit-scrollbar-thumb{border-radius:8px;background-color:#DCDFE6}
+.tem02-sns-comment .textnum{position:absolute;bottom:3px;right:24px}
+.tem02-sns-comment .commentfoot{justify-content:flex-end;margin-top:10px}
+.tem02-sns-comment .commbtn{width:78px;height:32px;line-height:32px;text-align:center;color:#fff;background-color:var(--main-color);border-radius:2px;font-size:14px;cursor:pointer}
+.tem02-sns-comment .commbtn.cancel{border:1px solid #dcdfe6;background-color:#fff;color:#595959;margin-right:14px}
+.tem02-sns-comment .commbtn.submit.active{opacity:0.6;cursor:not-allowed}
+.tem02-sns-comment .commentimg{width:15%;margin-top:10px;cursor:pointer}
+.tem02-sns-comment .commentimg.active{border:2px solid var(--main-color);cursor:pointer}
+.tem02-sns-comment .commentimg img{width:100%}
+.tem02-sns-comment .commentimgbox{display:none;position:relative;padding:26px;margin-top:18px;border:2px solid #e4e7ed}
+.tem02-sns-comment .commentimgbox.active{display:inline-block;max-width:100%}
+.tem02-sns-comment .commentimgbox img{max-width:100%}
+.tem02-sns-comment .commentimgclose{font-size:36px;cursor:pointer;color:#c5c5c5;position:absolute;top:-12px;right:2px;cursor:pointer}
+.tem02-sns-comment .commentPopup{z-index:9;display:none}
+.tem02-sns-comment .commentPopup.active{display:block}
+.tem02-sns-comment .closePopup{background-color:#fff;border:2px solid #e4e7ed;border-radius:4px;position:fixed;top:50%;left:50%;transform:translate3d(-50%, -50%, 0);z-index:11;padding:26px 26px 36px}
+.tem02-sns-comment .closePopup.active{display:none}
+.tem02-sns-comment .commentPopup .closePopup .close{opacity:1;float:none;text-align:right;line-height:1;font-size:22px}
+.tem02-sns-comment .commentPopup .closePopup .text{flex:1;-webkit-flex:1;margin-left:22px;margin-right:16px}
+.tem02-sns-comment .commentPopup .text_title{font-size:20px;color:#333;line-height:1}
+.tem02-sns-comment .commentPopup .text_desc{font-size:18px;color:#999;margin-top:23px}
+body.designer-body .tem02-sns-comment .designerShow{display:block}
+.tem02-sns-comment .Popupcover{width:100%;height:100%;background-color:rgba(0,0,0,0.6);position:fixed;top:0;left:0;z-index:10}
+
+
+@media (max-width:1200px){
+	.tem02-sns-comment .username{width:12vw}
+}
+@media (max-width:992px){
+	.tem02-sns-comment .username{width:16vw}
+	.tem02-sns-comment .comI{padding:10px}
+	.tem02-sns-comment .commbtn{padding:0 14px}
+	.tem02-sns-comment .comI_text{padding:6px 6px 15px}
+	.tem02-sns-comment .comI_text textarea{height:60px}
+	.tem02-sns-comment .textnum{bottom:2px;right:14px}
+}
+@media (max-width:768px){
+	.tem02-sns-comment .username{width:35vw}
+	.tem02-sns-comment .commentimg{width:48;margin-right:3.5%}
+	.tem02-sns-comment .commentimg:nth-of-type(2n+2){margin-right:0}
+}
+
